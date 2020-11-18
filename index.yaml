@@ -1,11 +1,11 @@
 apiVersion: v1
 entries:
   netdata:
-  - apiVersion: v1
+  - apiVersion: v2
     appVersion: v1.26.0
-    created: "2020-10-27T11:46:42.851101253Z"
+    created: "2020-11-18T09:14:58.145539116Z"
     description: Real-time performance monitoring, done right!
-    digest: 8df4f1b8886531905024c9acfd90bce930977d002b1bbd085cbc5e1b6cf9e4d0
+    digest: e6fb1544cd17b17242c33f1bdbbe845a37a5048c37ba91dec02498e350989b51
     home: https://netdata.cloud/
     icon: https://netdata.github.io/helmchart/logo.png
     keywords:
@@ -29,7 +29,8 @@ entries:
     sources:
     - https://github.com/netdata/helmchart
     - https://github.com/netdata/netdata
+    type: application
     urls:
-    - https://github.com/ilyam8/helmchart/releases/download/netdata-2.0.14/netdata-2.0.14.tgz
-    version: 2.0.14
-generated: "2020-10-27T11:46:42.387441839Z"
+    - https://github.com/ilyam8/helmchart/releases/download/netdata-3.1.0/netdata-3.1.0.tgz
+    version: 3.1.0
+generated: "2020-11-18T09:14:58.029158566Z"
